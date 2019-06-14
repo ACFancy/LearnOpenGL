@@ -1,2 +1,0 @@
-# LeranOpenGL
-a study log
