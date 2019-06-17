@@ -7,26 +7,39 @@
 //
 
 #import <Foundation/Foundation.h>
-#include <glad.h>
-#include <GLFW/glfw3.h>
 #include <iostream>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 using namespace std;
 
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
+const GLuint SCR_WIDTH = 800;
+const GLuint SCR_HEIGHT = 600;
 
-const char *vertexShaderSource = "#version 120 core\n"
+const char *vertexShaderSource = "#version 330 core\n"
 "layout (location = 0) in vec3 aPos;\n"
 "void main()\n"
 "{\n"
 "   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
 "}\0";
-const char *fragmentShaderSource = "#version 120 core\n"
+const char *fragmentShaderSource = "#version 330 core\n"
 "out vec4 FragColor;\n"
 "void main()\n"
 "{\n"
 "   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
 "}\n\0";
+
+//const char *vertexShaderSource = ""
+//"attribute vec3 aPos;\n"
+//"void main()\n"
+//"{\n"
+//"   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
+//"}\0";
+//const char *fragmentShaderSource = ""
+//"vec4 FragColor;\n"
+//"void main()\n"
+//"{\n"
+//"   FragColor = vec4(1.0, 0.5, 0.2, 1.0);\n"
+//"}\n\0";
 
 
 void frameBuffersizeCallBack(GLFWwindow *window, GLint width, GLint height)
@@ -79,15 +92,17 @@ void render(GLFWwindow *window, int shaderProgram, unsigned int VAO)
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+    
         if (glfwInit() != 1) {
             return -1;
         }
-        glfwInitHint(GLFW_VERSION_MAJOR, 3);
-        glfwInitHint(GLFW_VERSION_MINOR, 3);
         glfwInitHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 #ifdef __APPLE__
         glfwInitHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif
+        glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+        glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+
         
         GLFWwindow *window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Triangle", NULL, NULL);
         if (NULL == window) {
@@ -105,6 +120,8 @@ int main(int argc, const char * argv[]) {
         }
         
         printf("Supported GLSL version is %s.\n", (char *)glGetString(GL_SHADING_LANGUAGE_VERSION));
+        printf("Supported OpenGL version is %s.\n", (char *)glGetString(GL_VERSION));
+        
         // build and compile our shader program
         // vertex shader
         int vertexShader = glCreateShader(GL_VERTEX_SHADER);
@@ -150,15 +167,16 @@ int main(int argc, const char * argv[]) {
             0.5f,   0.5f, 0.0f, //top right
             0.5f,  -0.5f, 0.0f, // bottom right
            -0.5f,  -0.5f, 0.0f, /// bottom left
-           -0.5f,   0.5f, 0.0f //top left
+           -0.5f,   0.5f, 0.0f, //top left
         };
         unsigned int indices[] = {
             0, 1, 3,   // first triangle
             1, 2, 3    // second triangle
         };
 
-        unsigned int VBO, VAO, EBO;
+        GLuint VBO, VAO, EBO;
         glGenVertexArrays(1, &VAO);
+
         glGenBuffers(1, &VBO);
         glGenBuffers(1, &EBO);
 

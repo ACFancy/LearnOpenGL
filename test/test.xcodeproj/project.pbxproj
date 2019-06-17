@@ -36,12 +36,10 @@
 		CE65CAB522A10150007162C2 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CAA122A0D3E8007162C2 /* libGLEW.a */; };
 		CE65CAB622A10150007162C2 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9D22A0CFBB007162C2 /* libglfw3.a */; };
 		CEC87DEE22B398320051516D /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = CEC87DED22B398320051516D /* main.mm */; };
-		CEC87DF222B3983F0051516D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9322A0CE1F007162C2 /* OpenGL.framework */; };
 		CEC87DF322B398440051516D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9122A0CE17007162C2 /* Cocoa.framework */; };
 		CEC87DF422B398530051516D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9922A0CE33007162C2 /* IOKit.framework */; };
 		CEC87DF522B398580051516D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9522A0CE25007162C2 /* GLUT.framework */; };
 		CEC87DF622B3985D0051516D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9722A0CE2C007162C2 /* CoreVideo.framework */; };
-		CEC87DF722B3989A0051516D /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CAA122A0D3E8007162C2 /* libGLEW.a */; };
 		CEC87DF822B3989A0051516D /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9D22A0CFBB007162C2 /* libglfw3.a */; };
 		CEC87DF922B398A40051516D /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = CE65CA9F22A0D128007162C2 /* glad.c */; };
 /* End PBXBuildFile section */
@@ -103,6 +101,7 @@
 		CE65CAA122A0D3E8007162C2 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = ../../../../../../../usr/local/lib/libGLEW.a; sourceTree = "<group>"; };
 		CE65CAA722A0FD4B007162C2 /* helloWindow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloWindow; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE65CAA922A0FD4B007162C2 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		CE71BB1222B792AC005BEEE0 /* shader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = shader.glsl; sourceTree = "<group>"; };
 		CEC87DEB22B398310051516D /* hello_triangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hello_triangle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC87DED22B398320051516D /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,13 +153,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC87DF722B3989A0051516D /* libGLEW.a in Frameworks */,
 				CEC87DF822B3989A0051516D /* libglfw3.a in Frameworks */,
 				CEC87DF622B3985D0051516D /* CoreVideo.framework in Frameworks */,
 				CEC87DF522B398580051516D /* GLUT.framework in Frameworks */,
 				CEC87DF422B398530051516D /* IOKit.framework in Frameworks */,
 				CEC87DF322B398440051516D /* Cocoa.framework in Frameworks */,
-				CEC87DF222B3983F0051516D /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				CEC87DED22B398320051516D /* main.mm */,
+				CE71BB1222B792AC005BEEE0 /* shader.glsl */,
 			);
 			path = hello_triangle;
 			sourceTree = "<group>";
@@ -466,12 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					/usr/local/include,
-					"/usr/local/include/glad/**",
-					"/usr/local/include/GLFW/**",
-					"/usr/local/include/GL/**",
-				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -526,12 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					/usr/local/include,
-					"/usr/local/include/glad/**",
-					"/usr/local/include/GLFW/**",
-					"/usr/local/include/GL/**",
-				);
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -584,6 +572,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95P79X4SC4;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -594,6 +583,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95P79X4SC4;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
