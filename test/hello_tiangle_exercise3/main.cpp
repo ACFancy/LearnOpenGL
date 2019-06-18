@@ -197,7 +197,6 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-
 void frameChangeSizeCallBack(GLFWwindow *window, GLint width, GLint height)
 {
     if (NULL == window) {
