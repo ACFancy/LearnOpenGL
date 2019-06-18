@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1FEDA422B8796900CD0794 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE1FEDA322B8796900CD0794 /* main.cpp */; };
+		CE1FEDA822B8797A00CD0794 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9122A0CE17007162C2 /* Cocoa.framework */; };
+		CE1FEDA922B8798400CD0794 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9522A0CE25007162C2 /* GLUT.framework */; };
+		CE1FEDAA22B8799200CD0794 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9722A0CE2C007162C2 /* CoreVideo.framework */; };
+		CE1FEDAB22B879A800CD0794 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CAA122A0D3E8007162C2 /* libGLEW.a */; };
+		CE1FEDAC22B879A800CD0794 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9D22A0CFBB007162C2 /* libglfw3.a */; };
+		CE1FEDAD22B879AD00CD0794 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = CE65CA9F22A0D128007162C2 /* glad.c */; };
+		CE1FEDAE22B887A700CD0794 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9922A0CE33007162C2 /* IOKit.framework */; };
+		CE1FEDC822B8918D00CD0794 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE1FEDC722B8918C00CD0794 /* main.cpp */; };
+		CE1FEDF422B8D94E00CD0794 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = CE65CA9F22A0D128007162C2 /* glad.c */; };
+		CE1FEDF522B8D98300CD0794 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9522A0CE25007162C2 /* GLUT.framework */; };
+		CE1FEDF622B8D98B00CD0794 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9922A0CE33007162C2 /* IOKit.framework */; };
+		CE1FEDF722B8D99600CD0794 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CAA122A0D3E8007162C2 /* libGLEW.a */; };
+		CE1FEDF822B8D99600CD0794 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9D22A0CFBB007162C2 /* libglfw3.a */; };
+		CE1FEDF922B8D9A300CD0794 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9122A0CE17007162C2 /* Cocoa.framework */; };
+		CE1FEDFA22B8D9AC00CD0794 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9722A0CE2C007162C2 /* CoreVideo.framework */; };
+		CE1FEE0222B8E06F00CD0794 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE1FEE0122B8E06F00CD0794 /* main.cpp */; };
+		CE1FEE0622B8E07D00CD0794 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9122A0CE17007162C2 /* Cocoa.framework */; };
+		CE1FEE0722B8E08300CD0794 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9922A0CE33007162C2 /* IOKit.framework */; };
+		CE1FEE0822B8E08800CD0794 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9722A0CE2C007162C2 /* CoreVideo.framework */; };
+		CE1FEE0922B8E08E00CD0794 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9522A0CE25007162C2 /* GLUT.framework */; };
+		CE1FEE0A22B8E09D00CD0794 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CAA122A0D3E8007162C2 /* libGLEW.a */; };
+		CE1FEE0B22B8E09D00CD0794 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9D22A0CFBB007162C2 /* libglfw3.a */; };
+		CE1FEE0C22B8F6C700CD0794 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = CE65CA9F22A0D128007162C2 /* glad.c */; };
+		CE1FEE1422B8F7EF00CD0794 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE1FEE1322B8F7EF00CD0794 /* main.cpp */; };
+		CE1FEE1822B8F7F700CD0794 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9122A0CE17007162C2 /* Cocoa.framework */; };
+		CE1FEE1922B8F7FC00CD0794 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9522A0CE25007162C2 /* GLUT.framework */; };
+		CE1FEE1A22B8F80100CD0794 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9722A0CE2C007162C2 /* CoreVideo.framework */; };
+		CE1FEE1B22B8F80800CD0794 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9922A0CE33007162C2 /* IOKit.framework */; };
+		CE1FEE1C22B8F81D00CD0794 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CAA122A0D3E8007162C2 /* libGLEW.a */; };
+		CE1FEE1D22B8F81D00CD0794 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9D22A0CFBB007162C2 /* libglfw3.a */; };
+		CE1FEE1E22B8F83400CD0794 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = CE65CA9F22A0D128007162C2 /* glad.c */; };
 		CE486C3F22B271CA00FD1460 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE486C3E22B271CA00FD1460 /* main.mm */; };
 		CE486C4522B2720800FD1460 /* Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE486C4422B2720800FD1460 /* Window.cpp */; };
 		CE486C4622B272A200FD1460 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE65CA9522A0CE25007162C2 /* GLUT.framework */; };
@@ -45,6 +77,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		CE1FED9F22B8796900CD0794 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CE1FEDC322B8918C00CD0794 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CE1FEDFD22B8E06F00CD0794 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CE1FEE0F22B8F7EF00CD0794 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		CE486C3A22B271C900FD1460 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,6 +152,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE1FEDA122B8796900CD0794 /* hello_triangle_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hello_triangle_1; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1FEDA322B8796900CD0794 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CE1FEDC522B8918C00CD0794 /* hello_triangle_exercise_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hello_triangle_exercise_1; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1FEDC722B8918C00CD0794 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CE1FEDFF22B8E06F00CD0794 /* hello_triangle_exercise2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hello_triangle_exercise2; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1FEE0122B8E06F00CD0794 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CE1FEE1122B8F7EF00CD0794 /* hello_tiangle_exercise3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hello_tiangle_exercise3; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1FEE1322B8F7EF00CD0794 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CE486C3C22B271C900FD1460 /* helloworldCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloworldCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE486C3E22B271CA00FD1460 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		CE486C4322B271F800FD1460 /* Window.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Window.hpp; sourceTree = "<group>"; };
@@ -107,6 +183,58 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE1FED9E22B8796900CD0794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1FEDAE22B887A700CD0794 /* IOKit.framework in Frameworks */,
+				CE1FEDAB22B879A800CD0794 /* libGLEW.a in Frameworks */,
+				CE1FEDAC22B879A800CD0794 /* libglfw3.a in Frameworks */,
+				CE1FEDAA22B8799200CD0794 /* CoreVideo.framework in Frameworks */,
+				CE1FEDA922B8798400CD0794 /* GLUT.framework in Frameworks */,
+				CE1FEDA822B8797A00CD0794 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1FEDC222B8918C00CD0794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1FEDFA22B8D9AC00CD0794 /* CoreVideo.framework in Frameworks */,
+				CE1FEDF922B8D9A300CD0794 /* Cocoa.framework in Frameworks */,
+				CE1FEDF722B8D99600CD0794 /* libGLEW.a in Frameworks */,
+				CE1FEDF822B8D99600CD0794 /* libglfw3.a in Frameworks */,
+				CE1FEDF622B8D98B00CD0794 /* IOKit.framework in Frameworks */,
+				CE1FEDF522B8D98300CD0794 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1FEDFC22B8E06F00CD0794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1FEE0A22B8E09D00CD0794 /* libGLEW.a in Frameworks */,
+				CE1FEE0B22B8E09D00CD0794 /* libglfw3.a in Frameworks */,
+				CE1FEE0922B8E08E00CD0794 /* GLUT.framework in Frameworks */,
+				CE1FEE0822B8E08800CD0794 /* CoreVideo.framework in Frameworks */,
+				CE1FEE0722B8E08300CD0794 /* IOKit.framework in Frameworks */,
+				CE1FEE0622B8E07D00CD0794 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1FEE0E22B8F7EF00CD0794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1FEE1C22B8F81D00CD0794 /* libGLEW.a in Frameworks */,
+				CE1FEE1D22B8F81D00CD0794 /* libglfw3.a in Frameworks */,
+				CE1FEE1B22B8F80800CD0794 /* IOKit.framework in Frameworks */,
+				CE1FEE1A22B8F80100CD0794 /* CoreVideo.framework in Frameworks */,
+				CE1FEE1922B8F7FC00CD0794 /* GLUT.framework in Frameworks */,
+				CE1FEE1822B8F7F700CD0794 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE486C3922B271C900FD1460 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -164,6 +292,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE1FEDA222B8796900CD0794 /* hello_triangle_1 */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FEDA322B8796900CD0794 /* main.cpp */,
+			);
+			path = hello_triangle_1;
+			sourceTree = "<group>";
+		};
+		CE1FEDC622B8918C00CD0794 /* hello_triangle_exercise_1 */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FEDC722B8918C00CD0794 /* main.cpp */,
+			);
+			path = hello_triangle_exercise_1;
+			sourceTree = "<group>";
+		};
+		CE1FEE0022B8E06F00CD0794 /* hello_triangle_exercise2 */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FEE0122B8E06F00CD0794 /* main.cpp */,
+			);
+			path = hello_triangle_exercise2;
+			sourceTree = "<group>";
+		};
+		CE1FEE1222B8F7EF00CD0794 /* hello_tiangle_exercise3 */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FEE1322B8F7EF00CD0794 /* main.cpp */,
+			);
+			path = hello_tiangle_exercise3;
+			sourceTree = "<group>";
+		};
 		CE486C3D22B271CA00FD1460 /* helloworldCpp */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +342,10 @@
 				CE65CAA822A0FD4B007162C2 /* helloWindow */,
 				CE486C3D22B271CA00FD1460 /* helloworldCpp */,
 				CEC87DEC22B398320051516D /* hello_triangle */,
+				CE1FEDA222B8796900CD0794 /* hello_triangle_1 */,
+				CE1FEDC622B8918C00CD0794 /* hello_triangle_exercise_1 */,
+				CE1FEE0022B8E06F00CD0794 /* hello_triangle_exercise2 */,
+				CE1FEE1222B8F7EF00CD0794 /* hello_tiangle_exercise3 */,
 				CE65CA8522A0CD9F007162C2 /* Products */,
 				CE65CA9022A0CE17007162C2 /* Frameworks */,
 			);
@@ -194,6 +358,10 @@
 				CE65CAA722A0FD4B007162C2 /* helloWindow */,
 				CE486C3C22B271C900FD1460 /* helloworldCpp */,
 				CEC87DEB22B398310051516D /* hello_triangle */,
+				CE1FEDA122B8796900CD0794 /* hello_triangle_1 */,
+				CE1FEDC522B8918C00CD0794 /* hello_triangle_exercise_1 */,
+				CE1FEDFF22B8E06F00CD0794 /* hello_triangle_exercise2 */,
+				CE1FEE1122B8F7EF00CD0794 /* hello_tiangle_exercise3 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,6 +409,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CE1FEDA022B8796900CD0794 /* hello_triangle_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1FEDA722B8796900CD0794 /* Build configuration list for PBXNativeTarget "hello_triangle_1" */;
+			buildPhases = (
+				CE1FED9D22B8796900CD0794 /* Sources */,
+				CE1FED9E22B8796900CD0794 /* Frameworks */,
+				CE1FED9F22B8796900CD0794 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello_triangle_1;
+			productName = hello_triangle_1;
+			productReference = CE1FEDA122B8796900CD0794 /* hello_triangle_1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		CE1FEDC422B8918C00CD0794 /* hello_triangle_exercise_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1FEDC922B8918D00CD0794 /* Build configuration list for PBXNativeTarget "hello_triangle_exercise_1" */;
+			buildPhases = (
+				CE1FEDC122B8918C00CD0794 /* Sources */,
+				CE1FEDC222B8918C00CD0794 /* Frameworks */,
+				CE1FEDC322B8918C00CD0794 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello_triangle_exercise_1;
+			productName = hello_triangle_exercise_1;
+			productReference = CE1FEDC522B8918C00CD0794 /* hello_triangle_exercise_1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		CE1FEDFE22B8E06F00CD0794 /* hello_triangle_exercise2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1FEE0322B8E06F00CD0794 /* Build configuration list for PBXNativeTarget "hello_triangle_exercise2" */;
+			buildPhases = (
+				CE1FEDFB22B8E06F00CD0794 /* Sources */,
+				CE1FEDFC22B8E06F00CD0794 /* Frameworks */,
+				CE1FEDFD22B8E06F00CD0794 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello_triangle_exercise2;
+			productName = hello_triangle_exercise2;
+			productReference = CE1FEDFF22B8E06F00CD0794 /* hello_triangle_exercise2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		CE1FEE1022B8F7EF00CD0794 /* hello_tiangle_exercise3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1FEE1522B8F7EF00CD0794 /* Build configuration list for PBXNativeTarget "hello_tiangle_exercise3" */;
+			buildPhases = (
+				CE1FEE0D22B8F7EF00CD0794 /* Sources */,
+				CE1FEE0E22B8F7EF00CD0794 /* Frameworks */,
+				CE1FEE0F22B8F7EF00CD0794 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello_tiangle_exercise3;
+			productName = hello_tiangle_exercise3;
+			productReference = CE1FEE1122B8F7EF00CD0794 /* hello_tiangle_exercise3 */;
+			productType = "com.apple.product-type.tool";
+		};
 		CE486C3B22B271C900FD1460 /* helloworldCpp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE486C4222B271CA00FD1460 /* Build configuration list for PBXNativeTarget "helloworldCpp" */;
@@ -318,6 +554,18 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = User;
 				TargetAttributes = {
+					CE1FEDA022B8796900CD0794 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					CE1FEDC422B8918C00CD0794 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					CE1FEDFE22B8E06F00CD0794 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					CE1FEE1022B8F7EF00CD0794 = {
+						CreatedOnToolsVersion = 10.2;
+					};
 					CE486C3B22B271C900FD1460 = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -348,11 +596,51 @@
 				CE65CAA622A0FD4B007162C2 /* helloWindow */,
 				CE486C3B22B271C900FD1460 /* helloworldCpp */,
 				CEC87DEA22B398310051516D /* hello_triangle */,
+				CE1FEDA022B8796900CD0794 /* hello_triangle_1 */,
+				CE1FEDC422B8918C00CD0794 /* hello_triangle_exercise_1 */,
+				CE1FEDFE22B8E06F00CD0794 /* hello_triangle_exercise2 */,
+				CE1FEE1022B8F7EF00CD0794 /* hello_tiangle_exercise3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE1FED9D22B8796900CD0794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1FEDA422B8796900CD0794 /* main.cpp in Sources */,
+				CE1FEDAD22B879AD00CD0794 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1FEDC122B8918C00CD0794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1FEDC822B8918D00CD0794 /* main.cpp in Sources */,
+				CE1FEDF422B8D94E00CD0794 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1FEDFB22B8E06F00CD0794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1FEE0222B8E06F00CD0794 /* main.cpp in Sources */,
+				CE1FEE0C22B8F6C700CD0794 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1FEE0D22B8F7EF00CD0794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1FEE1422B8F7EF00CD0794 /* main.cpp in Sources */,
+				CE1FEE1E22B8F83400CD0794 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE486C3822B271C900FD1460 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -393,6 +681,86 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		CE1FEDA522B8796900CD0794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE1FEDA622B8796900CD0794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE1FEDCA22B8918D00CD0794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE1FEDCB22B8918D00CD0794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE1FEE0422B8E06F00CD0794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE1FEE0522B8E06F00CD0794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE1FEE1622B8F7EF00CD0794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE1FEE1722B8F7EF00CD0794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95P79X4SC4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		CE486C4022B271CA00FD1460 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -591,6 +959,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE1FEDA722B8796900CD0794 /* Build configuration list for PBXNativeTarget "hello_triangle_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1FEDA522B8796900CD0794 /* Debug */,
+				CE1FEDA622B8796900CD0794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1FEDC922B8918D00CD0794 /* Build configuration list for PBXNativeTarget "hello_triangle_exercise_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1FEDCA22B8918D00CD0794 /* Debug */,
+				CE1FEDCB22B8918D00CD0794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1FEE0322B8E06F00CD0794 /* Build configuration list for PBXNativeTarget "hello_triangle_exercise2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1FEE0422B8E06F00CD0794 /* Debug */,
+				CE1FEE0522B8E06F00CD0794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1FEE1522B8F7EF00CD0794 /* Build configuration list for PBXNativeTarget "hello_tiangle_exercise3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1FEE1622B8F7EF00CD0794 /* Debug */,
+				CE1FEE1722B8F7EF00CD0794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CE486C4222B271CA00FD1460 /* Build configuration list for PBXNativeTarget "helloworldCpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

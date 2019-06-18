@@ -81,7 +81,7 @@ void render(GLFWwindow *window, int shaderProgram, unsigned int VAO)
         glUseProgram(shaderProgram);
         // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
         glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES, 0, 6);
+//        glDrawArrays(GL_TRIANGLES, 0, 6);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 //        glBindVertexArray(0); // no need to unbind it every time
         
@@ -96,14 +96,13 @@ int main(int argc, const char * argv[]) {
         if (glfwInit() != 1) {
             return -1;
         }
-        glfwInitHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-#ifdef __APPLE__
-        glfwInitHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
-#endif
         glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
         glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+        glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+#ifdef __APPLE__
+        glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+#endif
 
-        
         GLFWwindow *window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Triangle", NULL, NULL);
         if (NULL == window) {
             glfwTerminate();

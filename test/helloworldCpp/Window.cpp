@@ -67,7 +67,7 @@ GLFWwindow *Window::createWindow()
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     /** apple兼容*/
 #ifdef __APPLE__
-    glfwInitHint(GLFW_OPENGL_FORWARD_COMPAT, GLFW_TRUE);
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GLFW_TRUE);
 #endif
     
     /** 创建GLFWwindow 实例*/
